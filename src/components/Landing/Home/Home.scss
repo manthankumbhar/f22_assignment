@@ -112,3 +112,21 @@
     }
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .home {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__left {
+      width: 80vw;
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+
+    &__right {
+      width: 60%;
+    }
+  }
+}

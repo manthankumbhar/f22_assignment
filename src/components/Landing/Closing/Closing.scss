@@ -112,3 +112,60 @@
     }
   }
 }
+
+@media only screen and (max-width: 1000px) {
+  .closing {
+    &__left {
+      &--frame {
+        width: 30rem;
+        top: 15%;
+        left: 0;
+      }
+    }
+
+    &__right {
+      padding-left: 3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .closing {
+    flex-direction: column-reverse;
+
+    &__left {
+      width: 90vw;
+      margin: 5rem auto;
+
+      &--frame {
+        width: 30rem;
+        top: 15%;
+        left: 25%;
+      }
+
+      &--lower {
+        left: 15%;
+      }
+    }
+
+    &__right {
+      width: 90vw;
+      margin: 1rem auto;
+      text-align: center;
+
+      &--lower {
+        margin: 2rem auto;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .closing {
+    &__left {
+      &--lower {
+        left: 2%;
+      }
+    }
+  }
+}

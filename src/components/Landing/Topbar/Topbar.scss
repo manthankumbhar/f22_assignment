@@ -16,14 +16,6 @@
   &__menu {
     display: flex;
 
-    &--dropdown {
-      display: none;
-    }
-
-    &--dropdownContainer:hover &--dropdown {
-      display: flex;
-    }
-
     &--option {
       margin: 2rem 1rem;
       font-size: 1.3rem;
@@ -43,6 +35,14 @@
       color: white;
       border: solid 1px #c31a12;
       cursor: pointer;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .topbar {
+    &__oval {
+      width: 40%;
     }
   }
 }

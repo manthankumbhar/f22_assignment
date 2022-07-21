@@ -85,3 +85,39 @@
     }
   }
 }
+
+@media only screen and (max-width: 1000px) {
+  .feature {
+    &__right {
+      &--frame {
+        width: 30rem;
+        top: 15%;
+        left: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .feature {
+    flex-direction: column;
+    align-items: center;
+
+    &__left {
+      width: 90vw;
+      text-align: center;
+    }
+
+    &__right {
+      width: 90vw;
+
+      &--frame {
+        left: 25%;
+      }
+
+      &--lower {
+        left: 10%;
+      }
+    }
+  }
+}

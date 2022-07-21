@@ -9,12 +9,6 @@ export default function Topbar() {
       <img className="topbar__logo" src={logo} alt="logo" />
       <img src={oval} className="topbar__oval" alt="oval" />
       <div className="topbar__menu">
-        {/* <div className="topbar__menu--dropdown">
-          <a href="/">SaaS Landing</a>
-          <a href="/">Startup Landing</a>
-          <a href="/">App Landing</a>
-          <a href="/">Desktop Landing</a>
-        </div> */}
         <a
           href="/"
           className="topbar__menu--option topbar__menu--dropdownContainer"

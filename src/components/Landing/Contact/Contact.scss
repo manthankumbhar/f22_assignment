@@ -61,3 +61,25 @@
     }
   }
 }
+
+@media only screen and (max-width: 1000px) {
+  .contact {
+    &__background {
+      height: 95rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact {
+    background-color: rgba(0, 0, 0, 0.788);
+
+    &__background {
+      display: none;
+    }
+
+    &__description {
+      width: 90vw;
+    }
+  }
+}

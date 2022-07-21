@@ -54,3 +54,38 @@
     }
   }
 }
+
+@media only screen and (max-width: 900px) {
+  .about {
+    &__left {
+      width: 50%;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .about {
+    margin: 0;
+    flex-direction: column-reverse;
+
+    &__left {
+      width: 80vw;
+    }
+
+    &__right {
+      width: 90vw;
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .about {
+    background-color: blue;
+    padding: 4rem 0;
+
+    &__background {
+      display: none;
+    }
+  }
+}
