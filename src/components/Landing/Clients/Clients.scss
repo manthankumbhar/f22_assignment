@@ -1,0 +1,42 @@
+.clients {
+  margin: 5rem 10rem;
+
+  &__p {
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .clients {
+    &__container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      gap: 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .clients {
+    &__p {
+      text-align: center;
+    }
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 5rem auto;
+
+      width: 8rem;
+    }
+  }
+}

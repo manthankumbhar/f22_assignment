@@ -1,9 +1,13 @@
+import { Route, Routes } from "react-router";
 import "./App.scss";
+import Landing from "./components/Landing/Landing";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>F22 Labs Assignment</h1>
+      <Routes>
+        <Route exact path="/" element={<Landing />} />
+      </Routes>
     </div>
   );
 }

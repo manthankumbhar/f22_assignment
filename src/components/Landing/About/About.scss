@@ -1,0 +1,91 @@
+.about {
+  position: relative;
+  margin: 20rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__background {
+    position: absolute;
+    left: 0;
+
+    width: 100%;
+
+    z-index: -1;
+    margin: 5rem 0;
+
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 15%;
+  }
+
+  &__left {
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+
+  &__right {
+    width: 40%;
+    text-align: left;
+    margin-left: 3rem;
+
+    &--h1 {
+      font-size: 5rem;
+      font-weight: bold;
+      color: white;
+    }
+
+    &--h4 {
+      font-size: 1.3rem;
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    &--btn {
+      width: 15rem;
+      height: 4rem;
+      font-size: 1.2rem;
+      border-radius: 4.5px;
+
+      background-color: transparent;
+      color: white;
+      border: solid 1px #eae9f2;
+      cursor: pointer;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .about {
+    &__left {
+      width: 50%;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .about {
+    margin: 0;
+    flex-direction: column-reverse;
+
+    &__left {
+      width: 80vw;
+    }
+
+    &__right {
+      width: 90vw;
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .about {
+    background-color: blue;
+    padding: 4rem 0;
+
+    &__background {
+      display: none;
+    }
+  }
+}

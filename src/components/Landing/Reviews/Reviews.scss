@@ -1,0 +1,22 @@
+.reviews {
+  margin: 7rem;
+
+  &__h1 {
+    font-size: 4rem;
+    color: #19191b;
+    text-align: center;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  }
+
+  &__a {
+    font-size: 1.3rem;
+
+    &--message {
+      margin: -4px 5px;
+    }
+  }
+}

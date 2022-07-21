@@ -10,3 +10,33 @@ body {
 .App {
   text-align: center;
 }
+
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 58.5%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  html {
+    font-size: 53.5%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  html {
+    font-size: 49.5%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 45.5%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 41.5%;
+  }
+}
