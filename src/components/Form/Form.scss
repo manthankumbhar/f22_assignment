@@ -1,0 +1,98 @@
+.form {
+  position: relative;
+  background-color: #f7f8fa;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__logo {
+    margin-top: 3rem;
+    width: 10rem;
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+
+    width: 40rem;
+    height: 40rem;
+    background-color: white;
+
+    &--h1 {
+      font-size: 4rem;
+      color: #1d293f;
+      margin-bottom: 1rem;
+    }
+
+    &--p {
+      font-size: 1.2rem;
+      color: #696871;
+      margin-top: 0;
+    }
+
+    &--input {
+      margin: 1rem;
+      font-size: 1.2rem;
+      padding: 5px 10px;
+      border-radius: 5px;
+      background-color: #f5f5f5;
+      height: 3rem;
+      width: 30rem;
+      margin-bottom: 1rem;
+      border: none;
+
+      &:focus {
+        box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+        outline: none;
+      }
+    }
+
+    &--label {
+      margin-right: auto;
+      font-size: 1.2rem;
+
+      span {
+        color: blue;
+        text-decoration: underline;
+      }
+    }
+
+    &--checkbox {
+      margin-left: 4.2rem;
+      cursor: pointer;
+    }
+
+    &--btn {
+      width: 32rem;
+      height: 3.5rem;
+      font-size: 1.2rem;
+      border-radius: 4.5px;
+      margin-top: 2rem;
+
+      background-color: #f04037;
+      color: white;
+      border: solid 1px #c31a12;
+      cursor: pointer;
+    }
+
+    &--end {
+      font-size: 1.2rem;
+      color: #696871;
+
+      span {
+        color: blue;
+        text-decoration: underline;
+      }
+    }
+  }
+}
