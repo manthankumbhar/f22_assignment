@@ -1,0 +1,53 @@
+.footer {
+  margin: 10rem 5rem 0 5rem;
+  color: white;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  &__h2 {
+    font-size: 2.5rem;
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    &--h4 {
+      font-size: 1.8rem;
+      margin-left: 0;
+    }
+
+    &--a {
+      margin: 1rem 0;
+      font-size: 1.2rem;
+      color: rgba(255, 255, 255, 0.7);
+
+      text-decoration: none;
+      transition: all 0.2s;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  &__end {
+    display: flex;
+    justify-content: space-between;
+    margin: 8rem 10rem 0 10rem;
+    border-top: 1px solid white;
+
+    &--p {
+      font-size: 1.3rem;
+      color: white;
+    }
+
+    &--logo {
+      margin: 1rem 1rem 0 0;
+      width: 1.5rem;
+      height: 2rem;
+    }
+  }
+}

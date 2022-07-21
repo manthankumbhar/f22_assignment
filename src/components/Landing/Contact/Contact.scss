@@ -1,0 +1,63 @@
+.contact {
+  position: relative;
+  color: white;
+
+  &__background {
+    width: 100%;
+    z-index: -1;
+    border-radius: 2% 15% 0 0;
+
+    position: absolute;
+    left: 0;
+  }
+
+  &__h1 {
+    padding-top: 15rem;
+    font-size: 5rem;
+  }
+
+  &__description {
+    width: 30%;
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 3rem auto;
+  }
+
+  &__form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &--input {
+      margin: 1rem;
+
+      font-size: 1.2rem;
+      padding: 5px 10px;
+      border-radius: 5px;
+      background-color: #f5f5f5;
+      height: 3rem;
+      width: 30rem;
+      margin-bottom: 1rem;
+      border: none;
+
+      &:focus {
+        box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+        outline: none;
+      }
+    }
+
+    &--btn {
+      width: 32rem;
+      height: 4rem;
+      font-size: 1.3rem;
+      font-weight: bold;
+      border-radius: 4.5px;
+      margin-top: 1rem;
+
+      background-color: #f04037;
+      color: white;
+      border: solid 1px #c31a12;
+      cursor: pointer;
+    }
+  }
+}

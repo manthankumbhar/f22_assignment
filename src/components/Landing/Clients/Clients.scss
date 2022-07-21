@@ -1,0 +1,15 @@
+.clients {
+  margin: 5rem 10rem;
+
+  &__p {
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem 1rem;
+  }
+}

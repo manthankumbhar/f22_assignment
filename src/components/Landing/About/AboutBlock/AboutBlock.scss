@@ -1,0 +1,31 @@
+.aboutblock {
+  width: 23rem;
+  height: 23rem;
+  background-color: white;
+  margin: 2rem;
+  border-radius: 5px;
+  text-align: left;
+  //   padding: 1rem;
+
+  &__img {
+    width: 2rem;
+    height: 2rem;
+
+    padding: 1rem;
+    margin: 2rem 2rem 1rem 2rem;
+    background-color: rgba(65, 62, 101, 0.1);
+    border-radius: 3rem;
+  }
+
+  &__h1 {
+    font-size: 2rem;
+    font-weight: bold;
+
+    margin: 1rem 2rem;
+  }
+
+  &__p {
+    font-size: 1.3rem;
+    margin: 1rem 2rem;
+  }
+}
