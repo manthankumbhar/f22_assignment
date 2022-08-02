@@ -1,28 +1,21 @@
 .about {
   position: relative;
-  margin: 20rem 0;
+  margin: 8rem 0;
+  padding: 6rem 0;
+  background-color: blue;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  &__background {
-    position: absolute;
-    left: 0;
-
-    width: 100%;
-
-    z-index: -1;
-    margin: 5rem 0;
-
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 15%;
-  }
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 15%;
 
   &__left {
     width: 40%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    margin-right: 3rem;
+
+    display: flex;
   }
 
   &__right {
@@ -37,7 +30,7 @@
     }
 
     &--h4 {
-      font-size: 1.3rem;
+      font-size: 1.4rem;
       color: rgba(255, 255, 255, 0.7);
     }
 
@@ -51,6 +44,13 @@
       color: white;
       border: solid 1px #eae9f2;
       cursor: pointer;
+
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: white;
+        color: blue;
+      }
     }
   }
 }
@@ -69,7 +69,9 @@
     flex-direction: column-reverse;
 
     &__left {
+      margin-top: 3rem;
       width: 80vw;
+      justify-content: center;
     }
 
     &__right {

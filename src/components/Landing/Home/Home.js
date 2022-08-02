@@ -17,7 +17,7 @@ export default function Home() {
         </h4>
         <button className="home__left--btn">Get Started</button>
         <a className="home__left--a" href="/">
-          <span>&#8883;</span> Watch the intro video
+          <span>&#9658;</span> Watch the intro video
         </a>
       </div>
       <div className="home__right">

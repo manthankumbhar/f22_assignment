@@ -18,7 +18,7 @@
 
   &__description {
     width: 30%;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: rgba(255, 255, 255, 0.7);
     margin: 3rem auto;
   }
@@ -58,6 +58,12 @@
       color: white;
       border: solid 1px #c31a12;
       cursor: pointer;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: white;
+        color: red;
+      }
     }
   }
 }
